@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+public
+docs/figma-reference
+test-results
+playwright-report
+package-lock.json
+next-env.d.ts
+screenshots

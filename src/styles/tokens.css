@@ -1,0 +1,62 @@
+/*
+ * Design tokens — Transformix · Trust & Governance
+ * Source: Figma file pHGOfIO1OjKFjB34xtlRRf, frame 4559:8171.
+ * Variable names in comments are the Figma variable names.
+ */
+:root {
+  /* Colour */
+  --tx-color-primary: #1c4499; /* primary · Brand/Primary blue · theme/primary */
+  --tx-color-primary-hover: #5b3379; /* theme/third — Button Hover variant */
+  --tx-color-text-primary: #1a1a1a; /* Text/Primary */
+  --tx-color-text-secondary: #57585b; /* Text/Secondary */
+  --tx-color-text-inverse: #dadada; /* text inverse li */
+  --tx-color-surface: #ffffff; /* Surface/White · background/main */
+  --tx-color-surface-neutral: #f5f6f8; /* Surface/Neutral */
+  --tx-color-surface-card: #fcfbfa; /* background/card */
+  --tx-color-border: #e5e7eb; /* Border/Default · strok */
+  --tx-color-navy-900: #0a1836; /* footer background (raw value) */
+  --tx-color-navy-850: #0b1634; /* contact section background (raw value) */
+  --tx-color-footer-text: #c6d2e9; /* footer links and copyright (raw value) */
+  --tx-color-divider-inverse: rgb(255 255 255 / 0.15); /* footer divider */
+
+  /* Gradient — "Hero contrast gradient" (4559:8185) */
+  --tx-gradient-hero: linear-gradient(
+    90deg,
+    rgb(25 61 138 / 0.133) 0%,
+    rgb(21 50 113 / 0.6) 32%,
+    rgb(10 24 54 / 0.961) 62%,
+    rgb(10 24 54) 100%
+  );
+  /* Below 1024 px the copy spans the full width: start from the 32 % stop. */
+  --tx-gradient-hero-compact: linear-gradient(
+    90deg,
+    rgb(21 50 113 / 0.6) 0%,
+    rgb(10 24 54 / 0.961) 60%,
+    rgb(10 24 54) 100%
+  );
+
+  /* Spacing — Spacing/08 … Spacing/48 */
+  --tx-space-8: 8px;
+  --tx-space-16: 16px;
+  --tx-space-24: 24px;
+  --tx-space-32: 32px;
+  --tx-space-48: 48px;
+
+  /* Layout */
+  --tx-page-padding-desktop: 100px; /* section padding-inline at 1440 */
+  --tx-header-padding-desktop: 80px;
+  --tx-header-height: 98px;
+  --tx-content-width: 1240px;
+  --tx-header-content-width: 1280px;
+  --tx-frame-width: 1440px;
+
+  /* Radius */
+  --tx-radius-card: 16px;
+  --tx-radius-panel: 24px;
+  --tx-radius-media: 20px;
+  --tx-radius-pill: 100px;
+
+  /* Focus ring (accessibility addition — not in Figma) */
+  --tx-focus-ring-width: 2px;
+  --tx-focus-ring-offset: 2px;
+}
